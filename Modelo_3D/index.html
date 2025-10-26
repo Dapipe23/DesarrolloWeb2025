@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marvel Spider-Man</title>
+    <!-- Import the component -->
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <link rel="stylesheet" href="/Clase3d/src/css/style.css">
+</head>
+
+<body>
+    <section class="hero-section">
+        <model-viewer 
+        src="./src/models/spider_man_playstation_rigged.glb"
+        camera-controls 
+        autoplay 
+        ar 
+        ar-modes="webxr scene-viewer quick-look"
+        alt="Ultimate Spider-Man 3D"
+        skybox-image="./src/enviroments/moonless_golf_2k.hdr"
+        exposure="0.65"
+        shadow-intensity="1"
+        camera-orbit="0deg 85deg 4m"
+        camera-target="0m 1m 0m"
+        field-of-view="30deg"
+        style="background: radial-gradient(circle at center, #120000 0%, #000 80%); width:100%; height:90vh;">
+    </model-viewer>
+
+
+        <div class="hero-content">
+            <div>
+                <svg class="marvel-logo" viewBox="0 0 500 200" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="500" height="200" fill="#ed1d24"/>
+                    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" 
+                          font-family="Arial Black, sans-serif" font-size="120" font-weight="bold" fill="white">
+                        MARVEL
+                    </text>
+                </svg>
+            </div>
+
+            <div class="hero-text">
+                <h1>SPIDER-MAN</h1>
+                <p class="tagline">Tu amigable vecino arácnido</p>
+                <p>
+                    Peter Parker, un joven estudiante mordido por una araña radiactiva, 
+                    obtiene superpoderes increíbles. Ahora, como Spider-Man, debe equilibrar 
+                    su vida personal con la responsabilidad de proteger Nueva York.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="info-section">
+        <div class="container">
+            <h2 class="section-title">Estadísticas</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-number">60+</div>
+                    <div class="stat-label">Años de Historia</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div class="stat-label">Películas Recientes</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Villanos Enfrentados</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">∞</div>
+                    <div class="stat-label">Multiversos</div>
+                </div>
+            </div>
+
+            <div class="characters-section">
+                <h2 class="section-title">Personajes Principales</h2>
+                <div class="characters-grid">
+                    <div class="character-card">
+                        <div class="character-img">🕷️</div>
+                        <div class="character-info">
+                            <div class="character-name">Peter Parker</div>
+                            <div class="character-role">Spider-Man / Protagonista</div>
+                        </div>
+                    </div>
+                    <div class="character-card">
+                        <div class="character-img">❤️</div>
+                        <div class="character-info">
+                            <div class="character-name">Mary Jane Watson</div>
+                            <div class="character-role">Interés Romántico</div>
+                        </div>
+                    </div>
+                    <div class="character-card">
+                        <div class="character-img">🎭</div>
+                        <div class="character-info">
+                            <div class="character-name">Norman Osborn</div>
+                            <div class="character-role">Green Goblin / Villano</div>
+                        </div>
+                    </div>
+                    <div class="character-card">
+                        <div class="character-img">🐙</div>
+                        <div class="character-info">
+                            <div class="character-name">Doc Ock</div>
+                            <div class="character-role">Villano Científico</div>
+                        </div>
+                    </div>
+                    <div class="character-card">
+                        <div class="character-img">🖤</div>
+                        <div class="character-info">
+                            <div class="character-name">Venom</div>
+                            <div class="character-role">Simbionte / Antihéroe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Poderes y Habilidades</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                <div class="feature-card">
+                    <div class="feature-icon">👁️</div>
+                    <h3 class="feature-title">Sentido Arácnido</h3>
+                    <p class="feature-desc">
+                        Capacidad sobrenatural para detectar el peligro antes de que ocurra, 
+                        dándole tiempo para reaccionar y esquivar ataques.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💪</div>
+                    <h3 class="feature-title">Súper Fuerza</h3>
+                    <p class="feature-desc">
+                        Fuerza sobrehumana que le permite levantar objetos pesados, 
+                        hasta 10 toneladas, y dar golpes devastadores.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🏃</div>
+                    <h3 class="feature-title">Agilidad</h3>
+                    <p class="feature-desc">
+                        Reflejos, velocidad y agilidad superiores que superan a cualquier 
+                        atleta olímpico, permitiéndole moverse con gracia felina.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧗</div>
+                    <h3 class="feature-title">Adherencia</h3>
+                    <p class="feature-desc">
+                        Capacidad de adherirse a cualquier superficie, permitiéndole 
+                        escalar paredes y techos sin esfuerzo.
+                    </p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🧠</div>
+                    <h3 class="feature-title">Genio Científico</h3>
+                    <p class="feature-desc">
+                        Inteligencia excepcional en ciencias, especialmente en química 
+                        y física, que usa para crear su tecnología.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
